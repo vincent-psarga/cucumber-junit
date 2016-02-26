@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 var cucumber_junit = require('../lib/cucumber_junit'),
-  cli_options = require('../lib/cli_options').options;
+  cli_options = require('../lib/cli_options').options,
+  rawInput = ''
 
 if (cli_options.help) {
   console.log(require('../lib/cli_options').usage);
