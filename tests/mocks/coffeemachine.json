@@ -1,0 +1,638 @@
+[
+  {
+    "id": "Beans",
+    "name": "Beans",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/Beans.feature",
+    "elements": [
+      {
+        "name": "Beans run out",
+        "id": "Beans;beans-run-out",
+        "line": 4,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3774350
+            },
+            "match": {}
+          },
+          {
+            "name": "the coffee machine is started",
+            "line": 5,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1551701
+            },
+            "match": {}
+          },
+          {
+            "name": "thirty eight coffees are taken without filling beans",
+            "line": 6,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 2202106
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 7,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 239845
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Fill beans\" should be displayed",
+            "line": 8,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 135841
+            },
+            "match": {}
+          },
+          {
+            "name": "I take \"2\" coffees",
+            "line": 9,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 417993
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 10,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 79569
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Fill beans\" should be displayed",
+            "line": 11,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 71922
+            },
+            "match": {}
+          },
+          {
+            "name": "I take a coffee",
+            "line": 12,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 108160
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should not be served",
+            "line": 13,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 119702
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129243
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Nominal-case",
+    "name": "Nominal case",
+    "description": "  As a coffee lover\n  I can get coffee from the machine\n  So I can enjoy the rest of the day",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/Nominal_case.feature",
+    "elements": [
+      {
+        "name": "Simple use",
+        "id": "Nominal-case;simple-use",
+        "line": 6,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 527926
+            },
+            "match": {}
+          },
+          {
+            "name": "the coffee machine is started",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 274064
+            },
+            "match": {}
+          },
+          {
+            "name": "I take a coffee",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 370366
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 88176
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62748
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Messages are based on language",
+        "id": "Nominal-case;messages-are-based-on-language",
+        "line": 17,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 365602
+            },
+            "match": {}
+          },
+          {
+            "name": "I start the coffee machine \"en\"",
+            "line": 12,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 225352
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Ready\" should be displayed",
+            "line": 13,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 57762
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58323
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Messages are based on language",
+        "id": "Nominal-case;messages-are-based-on-language",
+        "line": 18,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 326916
+            },
+            "match": {}
+          },
+          {
+            "name": "I start the coffee machine \"fr\"",
+            "line": 12,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 143921
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Pret\" should be displayed",
+            "line": 13,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 109657
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142349
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "No messages are displayed when machine is shut down",
+        "id": "Nominal-case;no-messages-are-displayed-when-machine-is-shut-down",
+        "line": 20,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 800718
+            },
+            "match": {}
+          },
+          {
+            "name": "the coffee machine is started",
+            "line": 21,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 182261
+            },
+            "match": {}
+          },
+          {
+            "name": "I shutdown the coffee machine",
+            "line": 22,
+            "keyword": "When ",
+            "result": {
+              "status": "failed",
+              "duration": 2952937,
+              "error_message": "ReferenceError: plopidou is not defined\n    at Object.exports.Actionwords.iShutdownTheCoffeeMachine (/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/actionwords.js:9:5)\n    at World.<anonymous> (/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/step_definitions.js:18:26)\n    at process._tickCallback (node.js:355:11)\n    at Function.Module.runMain (module.js:503:11)\n    at startup (node.js:129:16)\n    at node.js:814:3"
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"\" should be displayed",
+            "line": 23,
+            "keyword": "Then ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151954
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Water",
+    "name": "Water",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/Water.feature",
+    "elements": [
+      {
+        "name": "Water runs away",
+        "id": "Water;water-runs-away",
+        "line": 4,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 539605
+            },
+            "match": {}
+          },
+          {
+            "name": "the coffee machine is started",
+            "line": 5,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 163487
+            },
+            "match": {}
+          },
+          {
+            "name": "fifty coffees have been taken without filling the tank",
+            "line": 6,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 1408880
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Fill tank\" should be displayed",
+            "line": 7,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 77811
+            },
+            "match": {}
+          },
+          {
+            "name": "I take a coffee",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 104604
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 72585
+            },
+            "match": {}
+          },
+          {
+            "name": "I take \"10\" coffees",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 226612
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should not be served",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 136422
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Fill tank\" should be displayed",
+            "line": 12,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 131066
+            },
+            "match": {}
+          },
+          {
+            "name": "I fill the water tank",
+            "line": 13,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 167776
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Ready\" should be displayed",
+            "line": 14,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 53209
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54922
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Weird-specs",
+    "name": "Weird specs",
+    "description": "  As a lazy coffee user\n  I can ignore the message displayed by the machine\n  So I can have coffee and let other people have to clean after me",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/vincent/dev/hiptest/hps/hps-cucumber-javascript/features/Weird_specs.feature",
+    "elements": [
+      {
+        "name": "Full grounds does not block coffee",
+        "id": "Weird-specs;full-grounds-does-not-block-coffee",
+        "line": 6,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312475
+            },
+            "match": {}
+          },
+          {
+            "name": "the coffee machine is started",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 176736
+            },
+            "match": {}
+          },
+          {
+            "name": "I take \"29\" coffees",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 1213127
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Ready\" should be displayed",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 81657
+            },
+            "match": {}
+          },
+          {
+            "name": "I take a coffee",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 78000
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 60313
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Empty grounds\" should be displayed",
+            "line": 12,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 48710
+            },
+            "match": {}
+          },
+          {
+            "name": "I fill the water tank",
+            "line": 13,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 78400
+            },
+            "match": {}
+          },
+          {
+            "name": "I fill the beans tank",
+            "line": 14,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 117391
+            },
+            "match": {}
+          },
+          {
+            "name": "I take \"20\" coffees",
+            "line": 15,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 429006
+            },
+            "match": {}
+          },
+          {
+            "name": "coffee should be served",
+            "line": 16,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 286364
+            },
+            "match": {}
+          },
+          {
+            "name": "message \"Empty grounds\" should be displayed",
+            "line": 17,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 70679
+            },
+            "match": {}
+          },
+          {
+            "keyword": "Around ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106484
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]

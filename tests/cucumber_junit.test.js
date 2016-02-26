@@ -44,5 +44,11 @@ Y.TestRunner.add(new Y.TestCase({
             outputXml = loadMockData('empty_result/output.xml');
 
         Assert.areEqual(outputXml, cucumber_junit(emptyJson, { indent: '    ' }), 'XML is the same');
+    },
+
+    'conversion support features-as-suites option': function () {
+        var inputJson = loadMockData('coffeemachine.json');
+
+        Assert.areEqual('', cucumber_junit(inputJson, { indent: '    ', 'features-as-suites': true}), 'XML is the same');
     }
 }));
