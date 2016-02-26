@@ -1,16 +1,19 @@
 #!/usr/bin/env node
 var cucumber_junit = require('../lib/cucumber_junit'),
-    rawInput = '';
+  cli_options = require('../lib/cli_options').options;
 
-process.stdin.setEncoding('utf8');
+if (cli_options.help) {
+  console.log(require('../lib/cli_options').usage);
+} else {
+  process.stdin.setEncoding('utf8');
+  process.stdin.on('readable', function() {
+      var chunk = process.stdin.read();
+      if (chunk !== null) {
+          rawInput += chunk.toString();
+      }
+  });
 
-process.stdin.on('readable', function() {
-    var chunk = process.stdin.read();
-    if (chunk !== null) {
-        rawInput += chunk.toString();
-    }
-});
-
-process.stdin.on('end', function() {
-    process.stdout.write(cucumber_junit(rawInput));
-});
+  process.stdin.on('end', function() {
+      process.stdout.write(cucumber_junit(rawInput, cli_options));
+  });
+}

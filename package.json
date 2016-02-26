@@ -24,6 +24,7 @@
     "xml": "0.0.12"
   },
   "devDependencies": {
+    "command-line-args": "^2.1.6",
     "ytestrunner": "~0.3.3",
     "yuitest": "~0.7.9"
   }
